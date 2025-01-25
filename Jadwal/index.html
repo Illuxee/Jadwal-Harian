@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jadwal Harian Lukman</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to bottom, #ffffff, #87cefa);
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #00509e;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border: 1px solid #87cefa;
+        }
+        th {
+            background-color: #00509e;
+            color: white;
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background-color: rgba(135, 206, 250, 0.3);
+        }
+        tr:hover {
+            background-color: #e1f5fe;
+        }
+        td {
+            color: #555;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #00509e;
+        }
+        footer a {
+            color: #00509e;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            h1 {
+                font-size: 2em;
+            }
+            th, td {
+                padding: 10px;
+                font-size: 0.9em;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.5em;
+            }
+            th, td {
+                padding: 8px;
+                font-size: 0.8em;
+            }
+            table {
+                font-size: 0.8em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Jadwal Harian Lukman</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Waktu</th>
+                    <th>Kegiatan</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>05.00 – 05.30</td>
+                    <td>Bangun, sholat subuh, dan meditasi ringan</td>
+                </tr>
+                <tr>
+                    <td>05.30 – 06.00</td>
+                    <td>Olahraga ringan (jogging atau stretching)</td>
+                </tr>
+                <tr>
+                    <td>06.00 – 06.30</td>
+                    <td>Sarapan sehat sambil mendengarkan podcast bahasa Inggris</td>
+                </tr>
+                <tr>
+                    <td>06.30 – 07.30</td>
+                    <td>Belajar Pemrograman Frontend (HTML & CSS untuk pemula)</td>
+                </tr>
+                <tr>
+                    <td>12.00 – 12.30</td>
+                    <td>Sholat dzuhur dan istirahat makan siang</td>
+                </tr>
+                <tr>
+                    <td>12.30 – 13.30</td>
+                    <td>Belajar JavaScript Dasar (sintaks, variabel, dan fungsi)</td>
+                </tr>
+                <tr>
+                    <td>13.30 – 14.30</td>
+                    <td>Praktik membuat proyek sederhana (HTML + CSS)</td>
+                </tr>
+                <tr>
+                    <td>15.00 – 15.15</td>
+                    <td>Sholat ashar</td>
+                </tr>
+                <tr>
+                    <td>15.15 – 16.00</td>
+                    <td>Belajar Bahasa Inggris (kosakata baru, latihan membaca, atau menulis)</td>
+                </tr>
+                <tr>
+                    <td>16.00 – 17.00</td>
+                    <td>Istirahat santai atau melakukan hobi favorit</td>
+                </tr>
+                <tr>
+                    <td>18.00 – 18.30</td>
+                    <td>Sholat maghrib dan makan malam</td>
+                </tr>
+                <tr>
+                    <td>18.30 – 19.00</td>
+                    <td>Sholat isya</td>
+                </tr>
+                <tr>
+                    <td>19.00 – 20.00</td>
+                    <td>Belajar Backend Development (database dan SQL dasar)</td>
+                </tr>
+                <tr>
+                    <td>20.00 – 21.00</td>
+                    <td>Praktik membangun API menggunakan Node.js</td>
+                </tr>
+                <tr>
+                    <td>21.00 – 21.30</td>
+                    <td>Ringkasan materi yang dipelajari hari ini</td>
+                </tr>
+                <tr>
+                    <td>21.30 – 22.00</td>
+                    <td>Relaksasi atau baca buku ringan</td>
+                </tr>
+                <tr>
+                    <td>22.00</td>
+                    <td>Tidur</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <footer>
+        &copy; 2025 Jadwal Harian Lukman | Designed with ❤️ by <a href="#">Lukman</a>
+    </footer>
+</body>
+</html>
